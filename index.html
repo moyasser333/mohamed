@@ -14,43 +14,46 @@
         font-size: large;
         cursor: pointer;
         transition: .5s;
-        margin-left: 20px;
+        margin-left: 50px;px;
+
       }
-      .join:hover {
+      .join:hover{
         box-shadow: 3px 3px 5px #e43d12;
         transform: translateX(10px) translateY(10px);
       }
-      .join:active {
+      .join:active{
         transition: 0s;
         background-color: #e43d12;
         color: #ebe9e1;
       }
       .golb {
-        width: 200px; /* Adjust as necessary */
-        height: auto;
-        margin-left: -20px;
-        margin-bottom: 20px;
-        border-radius: 15px; /* Rounded corners for a polished look */
-        perspective: 1000px; /* Perspective for 3D effect */
-        transition: transform 0.3s ease-in-out; /* Smooth transitions */
-      }
-      .golb:hover {
-        transition: .5s;
-        background-color: black;
-        box-shadow: 5px 5px 5px #e43d12;
-        transform: translateX(30px);
-        cursor: pointer;
-      }
-      .golb:active {
-        transition: 0s;
-        background-color: #e43d12;
-        box-shadow: 5px 5px 5px black;
-      }
+  width: 200px; /* Adjust as necessary */
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px; /* Rounded corners for a polished look */
+  perspective: 1000px; /* Perspective for 3D effect */
+  transition: transform 0.3s ease-in-out; /* Smooth transitions */
+}
+.golb:hover{
+  transition: .5s;
+  background-color: black;
+  box-shadow: 5px 5px 5px  #e43d12;
+  transform: translateX(30px);
+  cursor: pointer;
+}
+.golb:active{
+  transition: 0s;
+  background-color: #e43d12;
+  box-shadow: 5px 5px 5px  black;
+  
+}
     </style>
   </head>
   <body style="background-color: #ebe9e1;">
-    <img class="golb" src="GOLB.png">   
+    <img  class="golb" src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/4/4c/S6E38_GOLB.png/revision/latest?cb=20170429102216" >   
     <br>
     <button class="join">JOIN</button>
+    
   </body>
 </html>
